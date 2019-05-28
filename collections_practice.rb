@@ -53,8 +53,10 @@ end
 
 def merge_data(array1, array2)
   array2[0].map do |name, hash|
+    #binding.pry
     new_hash = {}
     array1.each do |attribute_hash|
+      #binding.pry
       if attribute_hash[:first_name] == name
         new_hash = hash.merge(attribute_hash)
       end
@@ -79,7 +81,7 @@ def organize_schools(schools)
     location = location_hash[:location]
     if organized_schools[location]
       organized_schools[location] << name
-      binding.pry
+      #binding.pry
     else
       organized_schools[location] = []
       organized_schools[location] << name
