@@ -67,4 +67,5 @@ def find_cool(array)
   new_array = []
   array.each do |element|
     binding.pry
+  end
 end
