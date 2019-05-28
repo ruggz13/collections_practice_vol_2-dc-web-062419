@@ -72,6 +72,8 @@ def find_cool(array)
   new_array
 end
 
-def organize_schools(array)
-  
+def organize_schools(schools)
+  organized_schools = {}
+  schools.each do |name, location|
+    binding.pry
 end
