@@ -60,4 +60,5 @@ def merge_data(array1, array2)
       end
     end
     new_hash
+  end
 end
