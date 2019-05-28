@@ -64,5 +64,7 @@ def merge_data(array1, array2)
 end
 
 def find_cool(array)
-  
+  new_array = []
+  array.each do |element|
+    binding.pry
 end
