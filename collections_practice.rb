@@ -57,4 +57,7 @@ def merge_data(array1, array2)
     array1.each do |attribute_hash|
       if attribute_hash[:first_name] == name
         new_hash = hash.merge(attribute_hash)
+      end
+    end
+    new_hash
 end
